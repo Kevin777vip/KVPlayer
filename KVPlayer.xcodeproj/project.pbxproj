@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		253C312E20B3F8BC0083A897 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 253C312D20B3F8BC0083A897 /* AppDelegate.m */; };
+		253C313420B3F8BC0083A897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 253C313220B3F8BC0083A897 /* Main.storyboard */; };
+		253C313620B3F8BC0083A897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 253C313520B3F8BC0083A897 /* Assets.xcassets */; };
+		253C313920B3F8BC0083A897 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 253C313720B3F8BC0083A897 /* LaunchScreen.storyboard */; };
+		253C313C20B3F8BC0083A897 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 253C313B20B3F8BC0083A897 /* main.m */; };
+		253C314620B3F8BC0083A897 /* KVPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 253C314520B3F8BC0083A897 /* KVPlayerTests.m */; };
+		253C315120B3F8BC0083A897 /* KVPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 253C315020B3F8BC0083A897 /* KVPlayerUITests.m */; };
+		253C316020B3FC270083A897 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253C315F20B3FC270083A897 /* MainViewController.m */; };
+		253C316620B3FF530083A897 /* HomeCellObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 253C316520B3FF530083A897 /* HomeCellObject.m */; };
+		253C316920B3FFBD0083A897 /* HomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 253C316820B3FFBD0083A897 /* HomeTableViewCell.m */; };
+		253C316E20B562E70083A897 /* KVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 253C316D20B562E70083A897 /* KVPlayerViewController.m */; };
+		67D69365C8B1FA755D140995 /* libPods-KVPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27B684C7D1186FB8F76E091B /* libPods-KVPlayer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		253C314220B3F8BC0083A897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 253C312120B3F8BC0083A897 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 253C312820B3F8BC0083A897;
+			remoteInfo = KVPlayer;
+		};
+		253C314D20B3F8BC0083A897 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 253C312120B3F8BC0083A897 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 253C312820B3F8BC0083A897;
+			remoteInfo = KVPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		253C312920B3F8BC0083A897 /* KVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		253C312C20B3F8BC0083A897 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		253C312D20B3F8BC0083A897 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		253C313320B3F8BC0083A897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		253C313520B3F8BC0083A897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		253C313820B3F8BC0083A897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		253C313A20B3F8BC0083A897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		253C313B20B3F8BC0083A897 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		253C314120B3F8BC0083A897 /* KVPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		253C314520B3F8BC0083A897 /* KVPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVPlayerTests.m; sourceTree = "<group>"; };
+		253C314720B3F8BC0083A897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		253C314C20B3F8BC0083A897 /* KVPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		253C315020B3F8BC0083A897 /* KVPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVPlayerUITests.m; sourceTree = "<group>"; };
+		253C315220B3F8BC0083A897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		253C315E20B3FC270083A897 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		253C315F20B3FC270083A897 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		253C316420B3FF530083A897 /* HomeCellObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeCellObject.h; sourceTree = "<group>"; };
+		253C316520B3FF530083A897 /* HomeCellObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeCellObject.m; sourceTree = "<group>"; };
+		253C316720B3FFBD0083A897 /* HomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableViewCell.h; sourceTree = "<group>"; };
+		253C316820B3FFBD0083A897 /* HomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
+		253C316C20B562E70083A897 /* KVPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVPlayerViewController.h; sourceTree = "<group>"; };
+		253C316D20B562E70083A897 /* KVPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVPlayerViewController.m; sourceTree = "<group>"; };
+		27B684C7D1186FB8F76E091B /* libPods-KVPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KVPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58EC1A7385DB246987CEDFED /* Pods-KVPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KVPlayer/Pods-KVPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		71E697EA3942BDE1BEB0E77A /* Pods-KVPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-KVPlayer/Pods-KVPlayer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		253C312620B3F8BC0083A897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67D69365C8B1FA755D140995 /* libPods-KVPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253C313E20B3F8BC0083A897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253C314920B3F8BC0083A897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		253C312020B3F8BC0083A897 = {
+			isa = PBXGroup;
+			children = (
+				253C312B20B3F8BC0083A897 /* KVPlayer */,
+				253C314420B3F8BC0083A897 /* KVPlayerTests */,
+				253C314F20B3F8BC0083A897 /* KVPlayerUITests */,
+				253C312A20B3F8BC0083A897 /* Products */,
+				58A14E9D85118B578335730E /* Pods */,
+				EB626556F93733B362E9FC76 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		253C312A20B3F8BC0083A897 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				253C312920B3F8BC0083A897 /* KVPlayer.app */,
+				253C314120B3F8BC0083A897 /* KVPlayerTests.xctest */,
+				253C314C20B3F8BC0083A897 /* KVPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		253C312B20B3F8BC0083A897 /* KVPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				253C312C20B3F8BC0083A897 /* AppDelegate.h */,
+				253C312D20B3F8BC0083A897 /* AppDelegate.m */,
+				253C316220B3FE840083A897 /* Controllers */,
+				253C316120B3FE7B0083A897 /* Views */,
+				253C313220B3F8BC0083A897 /* Main.storyboard */,
+				253C313520B3F8BC0083A897 /* Assets.xcassets */,
+				253C313720B3F8BC0083A897 /* LaunchScreen.storyboard */,
+				253C313A20B3F8BC0083A897 /* Info.plist */,
+				253C313B20B3F8BC0083A897 /* main.m */,
+			);
+			path = KVPlayer;
+			sourceTree = "<group>";
+		};
+		253C314420B3F8BC0083A897 /* KVPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				253C314520B3F8BC0083A897 /* KVPlayerTests.m */,
+				253C314720B3F8BC0083A897 /* Info.plist */,
+			);
+			path = KVPlayerTests;
+			sourceTree = "<group>";
+		};
+		253C314F20B3F8BC0083A897 /* KVPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				253C315020B3F8BC0083A897 /* KVPlayerUITests.m */,
+				253C315220B3F8BC0083A897 /* Info.plist */,
+			);
+			path = KVPlayerUITests;
+			sourceTree = "<group>";
+		};
+		253C316120B3FE7B0083A897 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				253C316320B3FEBF0083A897 /* homeView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		253C316220B3FE840083A897 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				253C315E20B3FC270083A897 /* MainViewController.h */,
+				253C315F20B3FC270083A897 /* MainViewController.m */,
+				253C316C20B562E70083A897 /* KVPlayerViewController.h */,
+				253C316D20B562E70083A897 /* KVPlayerViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		253C316320B3FEBF0083A897 /* homeView */ = {
+			isa = PBXGroup;
+			children = (
+				253C316420B3FF530083A897 /* HomeCellObject.h */,
+				253C316520B3FF530083A897 /* HomeCellObject.m */,
+				253C316720B3FFBD0083A897 /* HomeTableViewCell.h */,
+				253C316820B3FFBD0083A897 /* HomeTableViewCell.m */,
+			);
+			path = homeView;
+			sourceTree = "<group>";
+		};
+		58A14E9D85118B578335730E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58EC1A7385DB246987CEDFED /* Pods-KVPlayer.debug.xcconfig */,
+				71E697EA3942BDE1BEB0E77A /* Pods-KVPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB626556F93733B362E9FC76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27B684C7D1186FB8F76E091B /* libPods-KVPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		253C312820B3F8BC0083A897 /* KVPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 253C315520B3F8BC0083A897 /* Build configuration list for PBXNativeTarget "KVPlayer" */;
+			buildPhases = (
+				84BFA53E54C33E06E548CADF /* [CP] Check Pods Manifest.lock */,
+				253C312520B3F8BC0083A897 /* Sources */,
+				253C312620B3F8BC0083A897 /* Frameworks */,
+				253C312720B3F8BC0083A897 /* Resources */,
+				1BD0B467CC254830BC42DBB1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVPlayer;
+			productName = KVPlayer;
+			productReference = 253C312920B3F8BC0083A897 /* KVPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		253C314020B3F8BC0083A897 /* KVPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 253C315820B3F8BC0083A897 /* Build configuration list for PBXNativeTarget "KVPlayerTests" */;
+			buildPhases = (
+				253C313D20B3F8BC0083A897 /* Sources */,
+				253C313E20B3F8BC0083A897 /* Frameworks */,
+				253C313F20B3F8BC0083A897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				253C314320B3F8BC0083A897 /* PBXTargetDependency */,
+			);
+			name = KVPlayerTests;
+			productName = KVPlayerTests;
+			productReference = 253C314120B3F8BC0083A897 /* KVPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		253C314B20B3F8BC0083A897 /* KVPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 253C315B20B3F8BC0083A897 /* Build configuration list for PBXNativeTarget "KVPlayerUITests" */;
+			buildPhases = (
+				253C314820B3F8BC0083A897 /* Sources */,
+				253C314920B3F8BC0083A897 /* Frameworks */,
+				253C314A20B3F8BC0083A897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				253C314E20B3F8BC0083A897 /* PBXTargetDependency */,
+			);
+			name = KVPlayerUITests;
+			productName = KVPlayerUITests;
+			productReference = 253C314C20B3F8BC0083A897 /* KVPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		253C312120B3F8BC0083A897 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					253C312820B3F8BC0083A897 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					253C314020B3F8BC0083A897 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 253C312820B3F8BC0083A897;
+					};
+					253C314B20B3F8BC0083A897 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 253C312820B3F8BC0083A897;
+					};
+				};
+			};
+			buildConfigurationList = 253C312420B3F8BC0083A897 /* Build configuration list for PBXProject "KVPlayer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 253C312020B3F8BC0083A897;
+			productRefGroup = 253C312A20B3F8BC0083A897 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				253C312820B3F8BC0083A897 /* KVPlayer */,
+				253C314020B3F8BC0083A897 /* KVPlayerTests */,
+				253C314B20B3F8BC0083A897 /* KVPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		253C312720B3F8BC0083A897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253C313920B3F8BC0083A897 /* LaunchScreen.storyboard in Resources */,
+				253C313620B3F8BC0083A897 /* Assets.xcassets in Resources */,
+				253C313420B3F8BC0083A897 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253C313F20B3F8BC0083A897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253C314A20B3F8BC0083A897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BD0B467CC254830BC42DBB1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KVPlayer/Pods-KVPlayer-resources.sh",
+				"${PODS_ROOT}/ZFPlayer/ZFPlayer/ZFPlayer.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZFPlayer.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KVPlayer/Pods-KVPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84BFA53E54C33E06E548CADF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KVPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		253C312520B3F8BC0083A897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253C316E20B562E70083A897 /* KVPlayerViewController.m in Sources */,
+				253C313C20B3F8BC0083A897 /* main.m in Sources */,
+				253C312E20B3F8BC0083A897 /* AppDelegate.m in Sources */,
+				253C316920B3FFBD0083A897 /* HomeTableViewCell.m in Sources */,
+				253C316020B3FC270083A897 /* MainViewController.m in Sources */,
+				253C316620B3FF530083A897 /* HomeCellObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253C313D20B3F8BC0083A897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253C314620B3F8BC0083A897 /* KVPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		253C314820B3F8BC0083A897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				253C315120B3F8BC0083A897 /* KVPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		253C314320B3F8BC0083A897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 253C312820B3F8BC0083A897 /* KVPlayer */;
+			targetProxy = 253C314220B3F8BC0083A897 /* PBXContainerItemProxy */;
+		};
+		253C314E20B3F8BC0083A897 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 253C312820B3F8BC0083A897 /* KVPlayer */;
+			targetProxy = 253C314D20B3F8BC0083A897 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		253C313220B3F8BC0083A897 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				253C313320B3F8BC0083A897 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		253C313720B3F8BC0083A897 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				253C313820B3F8BC0083A897 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		253C315320B3F8BC0083A897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		253C315420B3F8BC0083A897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		253C315620B3F8BC0083A897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58EC1A7385DB246987CEDFED /* Pods-KVPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DE37KTERBJ;
+				INFOPLIST_FILE = KVPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.KVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		253C315720B3F8BC0083A897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71E697EA3942BDE1BEB0E77A /* Pods-KVPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DE37KTERBJ;
+				INFOPLIST_FILE = KVPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.KVPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		253C315920B3F8BC0083A897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DE37KTERBJ;
+				INFOPLIST_FILE = KVPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.KVPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVPlayer.app/KVPlayer";
+			};
+			name = Debug;
+		};
+		253C315A20B3F8BC0083A897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DE37KTERBJ;
+				INFOPLIST_FILE = KVPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.KVPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVPlayer.app/KVPlayer";
+			};
+			name = Release;
+		};
+		253C315C20B3F8BC0083A897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DE37KTERBJ;
+				INFOPLIST_FILE = KVPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.KVPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KVPlayer;
+			};
+			name = Debug;
+		};
+		253C315D20B3F8BC0083A897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DE37KTERBJ;
+				INFOPLIST_FILE = KVPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.KVPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KVPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		253C312420B3F8BC0083A897 /* Build configuration list for PBXProject "KVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				253C315320B3F8BC0083A897 /* Debug */,
+				253C315420B3F8BC0083A897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		253C315520B3F8BC0083A897 /* Build configuration list for PBXNativeTarget "KVPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				253C315620B3F8BC0083A897 /* Debug */,
+				253C315720B3F8BC0083A897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		253C315820B3F8BC0083A897 /* Build configuration list for PBXNativeTarget "KVPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				253C315920B3F8BC0083A897 /* Debug */,
+				253C315A20B3F8BC0083A897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		253C315B20B3F8BC0083A897 /* Build configuration list for PBXNativeTarget "KVPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				253C315C20B3F8BC0083A897 /* Debug */,
+				253C315D20B3F8BC0083A897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 253C312120B3F8BC0083A897 /* Project object */;
+}
