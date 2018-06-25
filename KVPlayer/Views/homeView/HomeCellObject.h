@@ -8,5 +8,6 @@
 #import "NICellFactory.h"
 
 @interface HomeCellObject : NICellObject
+@property (nonatomic,copy) NSString *titleStr;
 +(HomeCellObject*)tableViewCell;
 @end

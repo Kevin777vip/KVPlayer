@@ -20,7 +20,11 @@
     [self setUpPlayer];
 }
 
--(void)setUpPlayer {
+- (void)viewDidDisappear:(BOOL)animated {
+    [_playerView pause];
+}
+
+- (void)setUpPlayer {
     _playerView = [[ZFPlayerView alloc]initWithFrame:self.view.bounds];
     [self.view addSubview:_playerView];
     
@@ -33,6 +37,9 @@
     [self.playerView autoPlayTheVideo];
 }
 
+-(void)dealloc {
+    
+}
 
 
 @end

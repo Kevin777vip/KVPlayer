@@ -61,6 +61,7 @@
 		253C316820B3FFBD0083A897 /* HomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewCell.m; sourceTree = "<group>"; };
 		253C316C20B562E70083A897 /* KVPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVPlayerViewController.h; sourceTree = "<group>"; };
 		253C316D20B562E70083A897 /* KVPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVPlayerViewController.m; sourceTree = "<group>"; };
+		2566392D20E0B2AB003F7592 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		27B684C7D1186FB8F76E091B /* libPods-KVPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KVPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58EC1A7385DB246987CEDFED /* Pods-KVPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KVPlayer/Pods-KVPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		71E697EA3942BDE1BEB0E77A /* Pods-KVPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-KVPlayer/Pods-KVPlayer.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,6 +125,7 @@
 				253C313220B3F8BC0083A897 /* Main.storyboard */,
 				253C313520B3F8BC0083A897 /* Assets.xcassets */,
 				253C313720B3F8BC0083A897 /* LaunchScreen.storyboard */,
+				2566392D20E0B2AB003F7592 /* PrefixHeader.pch */,
 				253C313A20B3F8BC0083A897 /* Info.plist */,
 				253C313B20B3F8BC0083A897 /* main.m */,
 			);
@@ -539,6 +541,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DE37KTERBJ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KVPlayer/PrefixHeader.pch";
 				INFOPLIST_FILE = KVPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.KVPlayer;
@@ -554,6 +557,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DE37KTERBJ;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KVPlayer/PrefixHeader.pch";
 				INFOPLIST_FILE = KVPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.KVPlayer;

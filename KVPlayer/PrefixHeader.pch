@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  KVPlayer
+//
+//  Created by fb on 2018/6/25.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define KV_SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+
+
+#endif /* PrefixHeader_pch */
