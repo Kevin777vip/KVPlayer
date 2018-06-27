@@ -21,7 +21,7 @@
 }
 
 -(void)configUI{
-    _titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, KV_SCREEN_WIDTH, 60)];
+    self.titleLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, KV_SCREEN_WIDTH, 60)];
     _titleLabel.backgroundColor = [UIColor lightGrayColor];
     _titleLabel.textColor = [UIColor blackColor];
     [self.contentView addSubview:_titleLabel];

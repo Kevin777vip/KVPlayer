@@ -6,6 +6,20 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		25A8DA6020E3709D00671CFA /* OCLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 25A8DA6320E3709D00671CFA /* Build configuration list for PBXAggregateTarget "OCLint" */;
+			buildPhases = (
+				25A8DA6420E370EA00671CFA /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = OCLint;
+			productName = OCLint;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		253C312E20B3F8BC0083A897 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 253C312D20B3F8BC0083A897 /* AppDelegate.m */; };
 		253C313420B3F8BC0083A897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 253C313220B3F8BC0083A897 /* Main.storyboard */; };
@@ -277,6 +291,10 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 253C312820B3F8BC0083A897;
 					};
+					25A8DA6020E3709D00671CFA = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 253C312420B3F8BC0083A897 /* Build configuration list for PBXProject "KVPlayer" */;
@@ -295,6 +313,7 @@
 				253C312820B3F8BC0083A897 /* KVPlayer */,
 				253C314020B3F8BC0083A897 /* KVPlayerTests */,
 				253C314B20B3F8BC0083A897 /* KVPlayerUITests */,
+				25A8DA6020E3709D00671CFA /* OCLint */,
 			);
 		};
 /* End PBXProject section */
@@ -344,6 +363,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KVPlayer/Pods-KVPlayer-resources.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		25A8DA6420E370EA00671CFA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ${SRCROOT}\nxcodebuild clean\nxcodebuild | xcpretty -r json-compilation-database -o compile_commands.json\noclint-json-compilation-database -e Pods \\\n-- oclint_args \\\n-rc LONG_LINE=200 \\\n-disable-rule=AssignIvarOutsideAccessors";
 		};
 		84BFA53E54C33E06E548CADF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -624,6 +656,24 @@
 			};
 			name = Release;
 		};
+		25A8DA6120E3709D00671CFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DE37KTERBJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25A8DA6220E3709D00671CFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DE37KTERBJ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -659,6 +709,15 @@
 			buildConfigurations = (
 				253C315C20B3F8BC0083A897 /* Debug */,
 				253C315D20B3F8BC0083A897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25A8DA6320E3709D00671CFA /* Build configuration list for PBXAggregateTarget "OCLint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A8DA6120E3709D00671CFA /* Debug */,
+				25A8DA6220E3709D00671CFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

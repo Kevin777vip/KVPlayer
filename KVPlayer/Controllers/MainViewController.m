@@ -31,6 +31,8 @@
 }
 
 - (void)configTableView{
+    NSString *str = @"abcd";
+    
     _mainTableView = [[UITableView alloc]initWithFrame:self.view.bounds style:UITableViewStylePlain];
     _mainTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self.view addSubview:_mainTableView];
